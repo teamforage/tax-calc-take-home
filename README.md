@@ -4,10 +4,11 @@
 You will be writing a tax calculation engine that Forage API consumers could use to determine the amount of taxes to charge an order that is being paid for with SNAP. This exercise shows you a challenge Forage has solved for our customers. Feel free to implement your solution in whichever language you feel most comfortable with. To get started,
 
 1. Clone this repository.
-1. Implement the Required Solution below.
-1. Push your code changes to a private repository hosted by you on github. 
-1. Email your interviewer to invite them to your private repo and to schedule a code review.
-1. Do a live code review with your interviewer. 
+2. Implement the Required Solution below.
+3. Test your solution.
+4. Push your code changes to a private repository hosted by you on github. 
+5. Email your interviewer to invite them to your private repo and to schedule a code review.
+6. Do a live code review with your interviewer. 
 
 ## Background Information
 The USDA FNS governs the [SNAP](https://www.fns.usda.gov/snap/supplemental-nutrition-assistance-program) program and has a number of restrictions in place around spending SNAP:
@@ -16,7 +17,7 @@ The USDA FNS governs the [SNAP](https://www.fns.usda.gov/snap/supplemental-nutri
 3. SNAP should be applied to a cart so that the minimum amount of taxes are charged to the customer.
 
 ### Required solution
-The goal of this exercise is to ingest a list of products and return a breakdown of the taxes that were applied to each product, as well as the total taxes charged. SNAP can only be charged to items with `"eligibility": "snap"`, so all items with `"eligibiilty: "ebt_cash"` should be fully taxed (EBT Cash is another form of benefit). Remember, SNAP should be applied to a cart so that the minimum amount of taxes are charged to the customer. Products can come in two different forms based on the granularity of the tax rates passed in. The list of products can include both products with a single `tax_rate` field and products with a `tax_rate_list` field.
+The goal of this exercise is to ingest a list of products and return a breakdown of the taxes that were applied to each product, as well as the total taxes charged. SNAP can only be charged to items with `"eligibility": "snap"`, so all items with `"eligibiilty: "ebt_cash"` cannot be paid with SNAP and should be fully taxed (EBT Cash is another form of benefit). Remember, SNAP should be applied to a cart so that the minimum amount of taxes are charged to the customer. Products can come in two different forms based on the granularity of the tax rates passed in. The list of products can include both products with a single `tax_rate` field and products with a `tax_rate_list` field.
 
 Here is an example of a product with a single `tax_rate`:
 ```json
