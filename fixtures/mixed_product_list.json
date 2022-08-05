@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "name": "T-Shirt",
+      "upc": "1",
+      "unit_price": 21,
+      "tax_rate": 0.05,
+      "quantity": 1,
+      "eligibility": "ebt_cash",
+      "taxes_charged": null
+    },
+    {
+      "name": "Hot, Prepared Food",
+      "upc": "2",
+      "unit_price": 13.89,
+      "tax_rate": 0.0111,
+      "quantity": 2,
+      "eligibility": "ebt_cash",
+      "taxes_charged": null
+    },
+    {
+      "name": "Toilet Paper",
+      "upc": "3",
+      "unit_price": 2.01,
+      "tax_rate": 0.0234,
+      "quantity": 5,
+      "eligibility": "ebt_cash",
+      "taxes_charged": null
+    },
+    {
+      "name": "Apples",
+      "upc": "4",
+      "unit_price": 5.99,
+      "tax_rate": 0.06,
+      "quantity": 3,
+      "eligibility": "snap",
+      "taxes_charged": null
+    },
+    {
+      "name": "Bananas",
+      "upc": "5",
+      "unit_price": 0.50,
+      "tax_rate": 0.0125,
+      "quantity": 3,
+      "eligibility": "snap",
+      "taxes_charged": null
+    },
+    {
+      "name": "Thomas' Original English Muffins",
+      "upc": "6",
+      "unit_price": 6.50,
+      "tax_rate": 0.075,
+      "quantity": 2,
+      "eligibility": "snap",
+      "taxes_charged": null
+    }
+  ]
+}
