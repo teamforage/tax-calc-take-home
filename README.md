@@ -128,6 +128,6 @@ Your solution should be unit tested based on the json objects found in the fixtu
 3. `mixed_product_list.json` and $32
 - Total amount of taxes charged: $1.61
 4. `mixed_product_list_tax_rate_list.json` and $16.72
-- Total amount of taxes charged: $2.30
+- Total amount of taxes charged: $2.46
 
 Please create a `tests` file that imports your solution and the json objects and unit tests your implementation.

@@ -11,9 +11,9 @@
           "taxes_charged": null
         },
         {
-            "imposed_by": "California State Tax",
-            "tax_rate": 0.027,
-            "taxes_charged": null
+          "imposed_by": "California State Tax",
+          "tax_rate": 0.027,
+          "taxes_charged": null
         }
       ],
       "quantity": 1,
