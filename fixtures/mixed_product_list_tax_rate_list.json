@@ -104,7 +104,6 @@
       "name": "Thomas' Original English Muffins",
       "upc": "6",
       "unit_price": 6.50,
-      "tax_rate": 0.075,
       "tax_rate_list": [
         {
           "imposed_by": "Los Angeles County Tax",
